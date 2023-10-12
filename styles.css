@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-weight:bold;
+    font-family: 'Rubik';
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.background {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+input[type="range"] {
+    /* position: absolute;
+    top: 20px;
+    right: 20px; */
+    width: 150px;
+}
+
+.brightness-conteiner {
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 8px;
+}
+span {
+    border: 1px solid #000; 
+    border-radius: 10px; 
+    padding: 2px 5px; 
+}
+ 
+ 
